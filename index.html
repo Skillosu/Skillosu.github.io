@@ -27,6 +27,13 @@
   </head>
 
   <body class="h-full overflow-hidden">
+    <audio id= "audio" loop autoplay>
+      <source src="assets/audio.mp3" type="audio/mp3">
+    </audio>
+    <script>
+      var vid = document.getElementById("audio");
+      vid.volume = 1; //change this to change the volume, 1 = 100% volume, 0.5 = 50% volume, 0 = silent
+    </script>
     <div
       class="absolute inset-0 h-full bg-fixed bg-center bg-no-repeat bg-cover bg-skill-bg blur md:scale-105 brightness-75"
     ></div>
